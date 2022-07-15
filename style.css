@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url('bg6.jpg') no-repeat center center/cover ;
+   height: 100vh;
+}
+/* .nav{
+    position: sticky;
+    top: 0;
+} */
+nav ul li a {
+    text-decoration: none;
+    font-size: 1.7rem;
+    color: white;
+    font-weight: bold;
+}
+nav ul li :hover{
+    border: 2px solid black;
+    color: black;
+background-color: white;
+padding: 5px;
+border-radius: 20px;
+}
+nav ul {
+    display: flex;
+    margin-left: 100px;
+    justify-content: end;
+}
+nav ul li {
+    list-style: none;
+    margin: 30px 40px;
+}
+nav{
+    background-color: rgb(0 0 0 / 37%);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+  
+}
+.textimg h1{
+    color: white;
+  text-align: center;
+  margin-top: 140px;
+  font-size: 50px;
+}
+.textimg  button{
+    font-size: 20px;
+  margin-left: 43%;
+  margin-top: 30px;
+padding: 5px;
+cursor: pointer;;
+}
+.textimg  button a{
+    text-decoration: none;
+    color: black;
+}
+
+
+.galery h1{
+    margin-top: 48%;
+    text-align: center;
+    font-size: 35px;
+}
+.img1{
+    display: block;
+    margin: auto;
+    transform: translate(80vw);
+    animation: slide1 6s 3s forwards ease-in-out;
+}
+.img2{
+    display: block;
+    margin: auto;
+    transform: translate(-100vw);
+    animation: slide2 18s 1s forwards ease-in-out;
+}
+.img3{
+    display: block;
+    margin: auto;
+    transform: translate(-113vw);
+    animation: slide3 14s 9s forwards ease-in-out;
+}
+
+.img4{
+    display: block;
+    margin: auto;
+    transform: translate(-132vw);
+    animation: slide4 18s 15s forwards ease-in-out;
+}
+
+.img5{
+    display: block;
+    margin: auto;
+    transform: translate(-150vw);
+    animation: slide5 17s 20s forwards ease-in-out;
+} 
+.images{
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+    z-index: -1;
+    margin-top: 30px;
+}
+@keyframes slide1 {
+    0%{
+        transform: translate(80vw);
+    }
+    100%{
+        transform: translate(150vw);
+    }
+   
+}
+ @keyframes slide2 {
+    0%{
+        transform: translate(-100vw);
+    }
+    100%{
+        transform: translate(120vw);
+    }
+    }
+
+
+@keyframes slide3 {
+    0%{
+        transform: translate(-108vw);
+    }
+   
+    100%{
+        transform: translate(82vw);
+
+    }
+}
+
+@keyframes slide4 {
+    0%{
+        transform: translate(-132vw);
+    }
+   
+    100%{
+        transform: translate(140vw);
+    }
+}
+
+@keyframes slide5 {
+    0%{
+        transform: translate(-150vw);
+    }
+    100%{
+        transform: translate(-78vw);
+    }
+} 
+.blog h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 50px;
+}
+.posts{
+    display: flex;
+margin-top: 30px;
+
+}
+.post{
+    border: 2px solid black;
+    height: 350px;
+    width: 300px;
+    text-align: center;
+    margin: auto;
+}
+.post img{
+    margin-top: 20px;
+}
+.post a{
+    color: black;
+    text-decoration: none;
+}
+footer p{
+    background-color: black;
+    color: white;
+    height: 40px;
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+footer {
+    background-color: black;
+    color: white;
+    /* height: 40px; */
+    justify-content: center;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+footer p{
+    margin-top: 10px;
+    font-size: 20px;
+}
